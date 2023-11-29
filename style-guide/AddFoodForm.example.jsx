@@ -10,10 +10,10 @@ function AddFoodForm() {
       <Divider>Add Food Entry</Divider>
 
       <label>Name</label>
-      <Input name="name" value={undefined} type="text" onChange={() => {}} />
+      <Input name="name" value={undefined} type="text" onChange={() => { }} />
 
       <label>Image</label>
-      <Input name="image" value={undefined} type="text" onChange={() => {}} />
+      <Input name="image" value={undefined} type="text" onChange={() => { }} />
 
       <label>Calories</label>
       {/* render antd <Input /> type="number" here */}

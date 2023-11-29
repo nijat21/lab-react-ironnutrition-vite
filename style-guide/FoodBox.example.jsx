@@ -14,7 +14,7 @@ function FoodBox() {
         <p>
           <b>Total Calories: FOOD_CALORIES * FOOD_SERVINGS</b> kcal
         </p>
-        <Button type="primary" onClick={() => {}}> Delete </Button>
+        <Button type="primary" onClick={() => { }}> Delete </Button>
       </Card>
     </Col>
   );
